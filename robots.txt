@@ -1,0 +1,20 @@
+# Betcio Erişim Rehberi — robots.txt
+# Son güncelleme: 2026-02-15
+#
+# Bu dosyayı HER İKİ domain'e koyun:
+#   - https://www.vmtype.com/robots.txt
+#   - https://tr.cioresmigiris.it.com/robots.txt
+
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+Disallow: /*.json$
+
+# tr.html ve index2.html yönlendirme hedefleri — indekslemeye gerek yok
+Disallow: /tr.html
+Disallow: /index2.html
+
+Sitemap: https://www.vmtype.com/sitemap.xml
